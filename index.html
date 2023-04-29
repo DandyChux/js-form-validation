@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JS Form Validation</title>
+		<script src="form-validation.js"></script>
+	</head>
+	<body>
+		<h2>Chukwuma Okoroji</h2>
+		<div>
+			Thanks for visiting the site, check out the code <a href="https://github.com/DandyChux/js-form-validation">here</a>. Fill out the form below if you'd like to leave a message.
+		</div>
+		
+		<br>
+		
+		<form id="contact-form">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<br><br>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<br><br>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="4" required></textarea>
+			<br><br>
+			
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
